@@ -1,4 +1,5 @@
 import Basic from './components/Basic';
+import DynamicForm from './components/DynamicForm';
 import FormikAbstract from './components/FormikAbstract';
 import FormikComponents from './components/FormikComponents';
 import Yup from './components/Yup';
@@ -11,7 +12,8 @@ function App() {
         <Basic />
         <Yup />
         <FormikComponents />
-        <FormikAbstract/>
+        <FormikAbstract />
+        <DynamicForm/>
       </section>
     </main>
   );
